@@ -6,6 +6,7 @@
 ## Questions
 
 * .git folder is where all required information necessary for git to work properly is stored (including metadata and object database of git project). It's created with `git init` command.
+* in the context of git, the atomic means a single operation that cant be divided into smaller operations with meaningful action. atomic commit means each commit should be dedicated to a single task or sub-task. atomic pull request means each pull request should be assigned to a single high-level change.
 
 ## Notes
 
