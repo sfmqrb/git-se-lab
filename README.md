@@ -5,6 +5,13 @@
 
 ## Questions
 
+* .git folder is where all required information necessary for git to work properly is stored (including metadata and object database of git project). It's created with `git init` command.
+* In the context of git, the atomic means a single operation that cant be divided into smaller operations with meaningful action. Atomic commit means each commit should be dedicated to a single task or sub-task. Atomic pull request means each pull request should be assigned to a single high-level change.
+* `git fetch` downloads all changes from main repository to local repository (without merging changes). `git merge` merge all changes and conflicts from remote repository on a new local merge commit. `git pull` downloads new chamges from remote repository (like fetch) and merging them (like merge).
+* `git restore` discards all changes and restores every thing to a specified commit. `git revert` undo changes of last commit but unlike git revert it removing changes by creating a new commit and dose not change git history. `git rebase` is rewriting last commit of branch. `git reset` update branch by moving git pointer in thread of commits in branch.
+* If a file adds to stage, the next commit will contain this file. in the other hand, if someone stash some files the next commit will not contain this file. stash is used to save uncommit changes localy. So it means that it takes the uncommitted changes (both staged and unstaged), saves them away for later use locally, and then reverts them from the working copy using `git stash pop`.
+* snapshot is a representation of current state of project (including all tracked files) in the form of manifest. this manifests can be used to compare different states of a git project.
+
 ## Notes
 
 ### Itemized list of the activities in the repo
