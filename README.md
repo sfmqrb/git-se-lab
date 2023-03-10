@@ -5,6 +5,8 @@
 
 ## Questions
 
+* .git folder is where all required information necessary for git to work properly is stored (including metadata and object database of git project). It's created with `git init` command.
+
 ## Notes
 
 ### Itemized list of the activities in the repo
